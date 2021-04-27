@@ -1,2 +1,18 @@
 .vscode
 build
+
+### Ignores for ApexGameEngine
+# extra directories
+doc/
+3rd_party/
+bin/
+bin-int/
+
+# CMake
+CMake/
+CMakeLists.txt
+**.cmake
+
+# gmake
+Makefile
+**.make
